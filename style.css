@@ -1,0 +1,148 @@
+body{
+    overflow: hidden;
+    width: 99%;
+}
+
+label#text {
+    font-size: 20px;
+    height: max-content;
+    width: max-content;
+    display: block ;
+    margin-left: 30.5%;
+    padding : 5px;
+    background-color: white;
+    margin-top: 2em;
+}
+
+div.FenetreSimulation {
+    width : 100%;
+    height : auto;
+    display: flex;
+    flex-direction: row;
+    background-color: #46B1C9;
+    color: white;
+    align-items: center;
+    border : 2px solid #7785AC
+}
+
+div.Periode{
+    font-size: 30px;
+    font-weight: bold;
+    flex-grow: 1;
+    margin-left: 1em;
+}
+
+div.Chrono {
+    flex-grow: 1;
+    text-align: end;
+    font-size: 1.5em;
+}
+
+div.Chrono > label {
+    display: block;
+}
+
+div.Chrono > label#TempsEcoule {
+    font-size: 2em;
+    margin-right: 3em;
+}
+
+canvas#Simulation {
+    width : 85%;
+}
+
+div.SecondePartie{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+input[type=button]{
+    display: block;
+    width: 10em;
+    border-radius: 20px;
+    border: 1px #50858B solid;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    height: 4.5em;
+    margin-left: 5em;
+    outline-style: none;
+}
+
+input[type=button]:hover{
+    color: white;
+    background-color: #A1D2CE;
+}
+
+div.index {
+    margin-top: 5%;
+    display: block;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    border : 5px double black;
+}
+
+form {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div.Explication {
+    width: 100%;
+    background-color: #46B1C9;
+    color: white;
+    align-items: center;
+    border : 2px solid #7785AC;
+    font-size: 1.5em;
+}
+
+
+div.Explication > label{
+    display: block;
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+input[type=submit]{
+    border: 1px #50858B solid;
+    outline-style: none;
+    width : 50%;
+    height: 6em;
+    margin: 1em;
+}
+
+input[type=submit]:hover{
+    color: white;
+    background-color: #A1D2CE;
+}
+
+form > label {
+    font-size: 2em;
+    margin: 1em;
+}
+
+input[type=number] {
+    font-size: 2em;
+    width: 50%;
+    margin: 1em;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+label.footer {
+    margin-top: 4em;
+    display: block;
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1em;
+    font-style: italic;
+    align-items: end;
+}
